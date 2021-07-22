@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavMenu({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav" id="nav-pills">
       <li className="nav-item">
         <a
           href="#home"
