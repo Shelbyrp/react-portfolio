@@ -3,6 +3,7 @@ import NavMenu from './NavMenu';
 import Header from "./Header";
 import Footer from "./Footer";
 import Home from './pages/Home';
+import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -18,6 +19,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Contact />;
   };
