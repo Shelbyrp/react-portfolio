@@ -16,3 +16,7 @@ code {
   float: right;
   margin-right: 10%;
 }
+
+.nav-item a {
+  color: white;
+}
