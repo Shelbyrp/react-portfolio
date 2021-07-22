@@ -21,4 +21,13 @@ code {
   color: white;
 }
 
+.profile {
+  width: 300px;
+  height: auto;
+  padding: 15px;
+}
 
+.about-container {
+  width: 80%;
+  padding: 20px;
+}
