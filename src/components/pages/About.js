@@ -1,19 +1,27 @@
 import React from 'react';
-import Profile from "../../assets/ShelbyProfile.png"
+import Profile from "../../assets/ShelbyProfile.png";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function About() {
     return (
         <div className="about-container">
-
+            <section class="bgimage">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div>
                 <article>
                     <span id="About-Me"></span>
                     <div class="container mt-5">
                         <div class="row p-5">
                             <div class="col-sm-3 col-md-2">
-                                <img src={Profile} alt="about me" className="profile"></img>
+                                <img src={Profile} alt="about me" className="profile" class="rounded-circle"></img>
                             </div>
-                            <div class="col-sm-8 offset-sm-1 col-md-9 offset-md-1">
+                            <div class="col-sm-8 offset-sm-1 col-md-7 offset-md-2">
                                 <p id="intro">
                                     Hi I'm <strong class="pink">Shelby Pignat</strong>!
 
@@ -36,10 +44,6 @@ export default function About() {
                         </div>
                     </div>
                 </article>
-                <div className="card-body contactLinks">
-                    <a href="https://www.linkedin.com/in/shelby-pignat-08795293/" className="card-link">LinkedIn</a>
-                    <a href="https://github.com/Shelbyrp" className="card-link">GitHub</a>
-                </div>
             </div>
         </div>
     );

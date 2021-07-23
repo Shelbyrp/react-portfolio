@@ -1,17 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 #nav-pills {
   float: right;
   margin-right: 10%;
@@ -27,7 +13,24 @@ code {
   padding: 15px;
 }
 
-.about-container {
-  width: 80%;
-  padding: 20px;
+.bgimage {
+  width: 100%;
+  height: 300px;
+  background: url("../src/assets/pinkgradient.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.pink {
+  color: #e32e58;
+}
+
+.rounded-circle {
+  width: 300px;
 }
