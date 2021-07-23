@@ -15,20 +15,26 @@ export default function Contact() {
         <div>
             <h1>Contact Me</h1>
             <form>
-                <label>
-                    Name:
-                    <input type="text" name="name" onChange={handleChange} />
-                </label>
-                <label>
-                    Email:
-                    <input type="text" name="email" onChange={handleChange} />
-                </label>
-                <label>
-                    Message:
-                    <input type="text" name="message" onChange={handleChange} />
-                </label>
-                <button onClick={handlePageForm}>Contact Me</button>
+                <div class="form-group">
+                    <label>
+                        Name:
+        <input type="text" name="name" onChange={handleChange} />
+                    </label>
+                    <label>
+                        Email:
+        <input type="text" name="email" onChange={handleChange} />
+                    </label>
+                    <label>
+                        Message:
+        <input type="text" name="message" onChange={handleChange} />
+                    </label>
+                    <button onClick={handlePageForm}>Contact Me</button>
+                </div>
             </form>
         </div>
     );
 }
+
+
+
+
