@@ -31,7 +31,7 @@ export default function Contact() {
         }
     }
     return (
-        <div>
+        <div class="main-container">
             <section class="bgimage">
                 <div class="container-fluid">
                     <div class="row">

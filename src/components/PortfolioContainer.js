@@ -26,9 +26,13 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavMenu currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Header />
-      {renderPage()}
+      <div className="fixed-top header-nav">
+        <NavMenu currentPage={currentPage} handlePageChange={handlePageChange} />
+        <Header />
+      </div>
+      <div>
+        {renderPage()}
+      </div>
       <Footer />
     </div>
   );

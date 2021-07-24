@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Footer() {
     return (
         <div>
-            <footer class="footer bg-dark">
+            <footer class="content bg-dark">
                 <div class="footer-copyright text-center text-white py-3">
                     <a href="https://github.com/Shelbyrp/react-portfolio"><img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" class="icon" /></a>
                     <a href="https://github.com/Shelbyrp/react-portfolio"><img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="Github" class="icon" /></a>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
+    <div class="main-container">
       <section class="bgimage">
         <div class="container-fluid">
           <div class="row">

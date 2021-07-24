@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function About() {
     return (
-        <div className="about-container">
+        <div className="about-container main-container">
             <section class="bgimage">
                 <div class="container-fluid">
                     <div class="row">
@@ -25,7 +25,7 @@ export default function About() {
                                 <p id="intro">
                                     Hi I'm <strong class="pink">Shelby Pignat</strong>!
 
-                    </p>
+                                </p>
                                 <p>
                                     With a background in digital marketing across a range of industries including construction,
                                     tourism and property development, I can now add that I am a Full Stack Web Developer to the
@@ -36,10 +36,10 @@ export default function About() {
                                     role as a Digital Marketing Coordinator has sparked my interest in programming languages and
                                     the
                                     power of
-                        coding.<br /> <br /> Learning how to code is a skill that I believe everyone should have the
-                        priviledge to do.
-                        View some of my recent work below and feel free to contact me with any queries.
-                    </p>
+                                    coding.<br /> <br /> Learning how to code is a skill that I believe everyone should have the
+                                    priviledge to do.
+                                    View some of my recent work below and feel free to contact me with any queries.
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -1,10 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
 #nav-pills {
   float: right;
-  margin-right: 10%;
 }
 
 .nav-item a {
   color: white;
+}
+
+header {
+  height: 50px;
+}
+
+.main-container {
+  min-height: 90vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
 }
 
 .profile {
@@ -31,6 +56,10 @@ h1 {
   color: #e32e58;
 }
 
+.title {
+  text-align: center;
+}
+
 .rounded-circle {
   width: 300px;
 }
@@ -52,11 +81,12 @@ h1 {
   margin: 2rem;
   position: relative;
   width: 400px;
+  background-color: rgb(231, 244, 252);
   box-shadow: 0 2px 2px var(--onyx), 0 6px 12px var(--onyx);
 }
 
 .card .img-container {
-  height: 75%;
+  height: 70%;
   overflow: hidden;
   text-align: center;
 }
@@ -65,17 +95,32 @@ h1 {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: var(--platinum);
 }
 
 .card .content {
   font-size: 18px;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.github {
+  padding: 10px;
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* .footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: auto;
+  margin-bottom: auto;
   padding: 0px;
-}
+} */

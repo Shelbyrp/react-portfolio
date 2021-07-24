@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Headquarters",
-        "image": "https://github.com/Shelbyrp/react-portfolio/blob/main/src/assets/hqpage.png?raw=true",
+        "image": "https://github.com/Shelbyrp/react-portfolio/blob/main/src/assets/headquarters.png?raw=true",
         "github": "https://github.com/Shelbyrp/budget-tracker",
         "deploy": "https://shelby-budget-tracker.herokuapp.com/"
     },

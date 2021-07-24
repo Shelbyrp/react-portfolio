@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCards from './Projects'
+import ProjectCards from './ProjectCards'
 import portfolio from '../../components/projects.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,7 +10,7 @@ function Wrapper(props) {
 function Portfolio() {
 
     return (
-        <div>
+        <div class="main-container">
             <section class="bgimage">
                 <div class="container-fluid">
                     <div class="row">
@@ -21,10 +21,8 @@ function Portfolio() {
             </section>
             <section>
                 <div className="project">
-                    <h1 className="title">Shelby Pignat Portfolio</h1>
-                    <hr></hr>
+                    <h1 className="title"> My Portfolio</h1>
                 </div>
-
                 <Wrapper id="card-data">
                     {portfolio.map((project) => (
                         <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} />
