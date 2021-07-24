@@ -32,12 +32,12 @@ export default function About() {
                                     list having recently completed a course through the University of Western Australia. This is
                                     in
                                     addition to the Bachelor of Commerce Degree that I hold from the University of Western
-                                    Australia. My current
+                                    Australia. <br /> <br />My current
                                     role as a Digital Marketing Coordinator has sparked my interest in programming languages and
                                     the
                                     power of
                                     coding.<br /> <br /> Learning how to code is a skill that I believe everyone should have the
-                                    priviledge to do.
+                                    priviledge to do.<br /> <br />
                                     View some of my recent work below and feel free to contact me with any queries.
                                 </p>
                             </div>
