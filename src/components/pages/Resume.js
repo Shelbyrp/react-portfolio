@@ -11,20 +11,45 @@ export default function Resume() {
           </div>
         </div>
       </section>
-      <h1>Resume</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <section class="wrapper">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 mb-5">
+          <h1 class="title">Resume</h1>
+          <div class="row justify-content-center" id="resume">
+            <div class="mt-5 pl-5 pr-5">
+              <p>
+                Download my <a href="//#endregion" class="link">resume</a>
+              </p>
+            </div>
+          </div>
+          <div class="justify-content-center mt-5">
+            <div>
+              <h2>Front-end Experience</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Responsive design</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="mt-5">
+              <h2>Back-end Experience</h2>
+              <ul>
+                <li>API</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL</li>
+                <li>Sequelize</li>
+                <li>MongoDB, Mongoose</li>
+                <li>Templating (Handlebars)</li>
+                <li>RESTful</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
