@@ -3,21 +3,35 @@ import { validateEmail } from '../../utils/helper';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Contact() {
-    const [formData, setFormData] = useState({ contactName: '', email: '', message: '' });
+    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
-    const { contactName, email, message } = formData;
+    const { name, email, message } = formData;
 
     const handlePageForm = (e) => {
         e.preventDefault();
         console.log("formdata", formData);
+        validateForm(formData);
+        
+        // setErrorMessage('Thank you for getting in touch. Someone will be in contact shortly.');
+
+        // formData.contact = "";
+        // formData.email = "";
+        // formData.message = "";
+
     };
 
     function handleChange(e) {
-        console.log("error message", typeof errorMessage);
+        if (e.target.name === "name") {
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required.`);
+            } else {
+                setErrorMessage('');
+            }
+        }
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
-                setErrorMessage('please enter a valid email');
+                setErrorMessage('Please enter a valid email.');
             } else {
                 setErrorMessage('');
             }
@@ -40,6 +54,21 @@ export default function Contact() {
         }
     }
 
+
+    function validateForm(formData) {
+        let formError = []
+        if (!formData.name) {
+            formError.push("Please add your name. ")
+        }
+        if (!formData.email) {
+            formError.push("Please add a valid email. ")
+        }
+        if (!formData.message) {
+            formError.push("Please add a message. ")
+        }
+        setErrorMessage(formError);
+    }
+
     return (
         <div class="main-container">
             <section class="bgimage">
@@ -57,7 +86,7 @@ export default function Contact() {
                         <label class="col-sm-2" htmlFor="name">Name:</label>
                         <div class="col-sm-10">
                             <div>
-                                <input name="contactName" class="form-control" type="text" defaultValue={contactName} id="name" onChange={handleChange}></input>
+                                <input name="name" class="form-control" type="text" defaultValue={name} id="name" onChange={handleChange}></input>
                             </div>
                         </div>
                     </div>
@@ -83,7 +112,7 @@ export default function Contact() {
                     <div class="form-group pull-right">
                         <label class="col-sm-2 control-label"></label>
                         <div class="col-xs-1">
-                            <button type="submit" class="btn btn-primary" onClick={handlePageForm}>Contact Me</button>
+                            <button type="submit" class="btn btn-primary" onClick={handlePageForm}>Submit</button>
                         </div>
                     </div>
                 </form>
