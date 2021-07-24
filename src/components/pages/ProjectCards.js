@@ -10,10 +10,10 @@ function ProjectCards(props) {
             <div className="content">
                 <p className="project-title" id="card-title">{props.name}</p>
                 <p>
-                    <a href={props.github}>Github</a>
+                    <a href={props.github}>Github Respository</a>
                 </p>
                 <p>
-                    <a href={props.deploy}>Deployed</a>
+                    <a href={props.deploy}>Deployed Application</a>
                 </p>
             </div>
         </div>
