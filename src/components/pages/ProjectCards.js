@@ -13,9 +13,6 @@ function ProjectCards(props) {
                     <a href={props.github}>Github Repo</a>
                     <a href={props.deploy}>Deployed Application</a>
                 </p>
-                <p id="topics">
-                    ({props.topics})
-                </p>
             </div>
         </div>
     );

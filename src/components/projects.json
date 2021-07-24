@@ -1,8 +1,8 @@
 [
     {
     "id": 1,
-    "name": "Budget Tracker",
-    "image": " ",
+    "name": "Headquarters",
+    "image": "/assets/hqpage.png",
     "github": "https://github.com/Shelbyrp/budget-tracker",
     "deploy": "https://shelby-budget-tracker.herokuapp.com/"
     },

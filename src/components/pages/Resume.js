@@ -3,6 +3,14 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
+      <section class="bgimage">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
+            </div>
+          </div>
+        </div>
+      </section>
       <h1>Resume</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis

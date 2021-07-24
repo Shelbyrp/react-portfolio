@@ -11,10 +11,35 @@ export default function Contact() {
     };
 
     function handleChange(e) {
-
+        if (e.target.name === 'email') {
+            const emailValid = checkEmail(e.target.value);
+            console.log("email", e.target.value)
+            if (!emailValid) {
+                setError('Your email is required.');
+            } else {
+                setError('');
+            }
+        } else {
+            if (!e.target.value.length) {
+                setError(`${e.target.name} is required.`);
+            } else {
+                setError('');
+            }
+        }
+        if (!error) {
+            setFormData({ ...formData, [e.target.name]: e.target.value })
+        }
     }
     return (
         <div>
+            <section class="bgimage">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div class="container wrapper">
                 <form>
                     <h2>Contact Us</h2>
