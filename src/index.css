@@ -21,6 +21,10 @@ body {
   color: white;
 }
 
+.active{
+  color: white;
+}
+
 header {
   height: 50px;
 }
