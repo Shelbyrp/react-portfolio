@@ -17,7 +17,7 @@ export default function Resume() {
           <div class="row justify-content-center" id="resume">
             <div class="mt-5 pl-5 pr-5">
               <p>
-                Download my <a href="//#endregion" class="link">resume</a>
+                Download my <a href="https://github.com/Shelbyrp/react-portfolio/blob/main/src/assets/Shelby%20Pignat%20CV%20WD%202021.pdf?raw=true" class="link">resume.</a>
               </p>
             </div>
           </div>
