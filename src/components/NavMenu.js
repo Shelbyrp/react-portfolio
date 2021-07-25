@@ -16,38 +16,38 @@ function NavMenu({ currentPage, handlePageChange }) {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mb-2 mb-lg-0 ml-auto">
-              <li className="nav-item">
+              <li className="nav-item text-white">
                 <a
                   href="#about"
                   onClick={() => handlePageChange('About')}
-                  className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                  className={currentPage === 'About' ? 'nav-link active' : 'nav-link text-white'}
                 >
                   About
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item text-white">
                 <a
                   href="#Portfolio"
                   onClick={() => handlePageChange('Portfolio')}
-                  className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                  className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link text-white'}
                 >
                   Portfolio
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item text-white">
                 <a
                   href="#contact"
                   onClick={() => handlePageChange('Contact')}
-                  className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                  className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link text-white'}
                 >
                   Contact
                 </a>
               </li>
-              <li>
+              <li className="nav-item text-white">
                 <a
                   href="#resume"
                   onClick={() => handlePageChange('Resume')}
-                  className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                  className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link text-white'}
                 >
                   Resume
                 </a>
