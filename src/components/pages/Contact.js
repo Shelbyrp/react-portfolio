@@ -81,7 +81,7 @@ export default function Contact() {
             </section>
             <div className="container wrapper">
                 <form className="col-lg-10 col-md-10 col-sm-10 col-xs-10 mb-5">
-                    <h2>Contact Us</h2>
+                    <h1 className="title">Contact Us</h1>
                     <div>
                         <label className="col-sm-2" htmlFor="name">Name:</label>
                         <div className="col-sm-10">

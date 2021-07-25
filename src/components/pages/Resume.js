@@ -14,7 +14,7 @@ export default function Resume() {
       <section className="wrapper">
         <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10 mb-5">
           <h1 className="title">Resume</h1>
-          <div className="row justify-content-center" id="resume">
+          <div id="resume">
             <div className="mt-5 pl-5 pr-5">
               <p>
                 Download my <a href="https://github.com/Shelbyrp/react-portfolio/blob/main/src/assets/Shelby%20Pignat%20CV%20WD%202021.pdf?raw=true" className="link">resume.</a>
