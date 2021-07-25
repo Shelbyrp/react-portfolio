@@ -17,12 +17,20 @@ body {
   float: right;
 }
 
-.nav-item a {
+.navbar-light .navbar-nav .nav-link {
   color: white;
 }
 
-.nav .active{
-  color: white;
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #e32e58;
+}
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: .25rem;
+  transition: box-shadow .15s ease-in-out;
 }
 
 header {
@@ -121,8 +129,12 @@ h1 {
   width: 100%;
 }
 
-#card-title{
+#card-title {
   font-weight: bold;
+}
+
+.ml-auto {
+  margin-left: auto !important;
 }
 
 /* .footer {

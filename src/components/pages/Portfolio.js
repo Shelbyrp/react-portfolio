@@ -10,11 +10,11 @@ function Wrapper(props) {
 function Portfolio() {
 
     return (
-        <div class="main-container">
-            <section class="bgimage">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
+        <div className="main-container">
+            <section className="bgimage">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
                         </div>
                     </div>
                 </div>

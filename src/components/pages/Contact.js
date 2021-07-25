@@ -70,38 +70,38 @@ export default function Contact() {
     }
 
     return (
-        <div class="main-container">
-            <section class="bgimage">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
+        <div className="main-container">
+            <section className="bgimage">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
                         </div>
                     </div>
                 </div>
             </section>
-            <div class="container wrapper">
-                <form class="col-lg-10 col-md-10 col-sm-10 col-xs-10 mb-5">
+            <div className="container wrapper">
+                <form className="col-lg-10 col-md-10 col-sm-10 col-xs-10 mb-5">
                     <h2>Contact Us</h2>
                     <div>
-                        <label class="col-sm-2" htmlFor="name">Name:</label>
-                        <div class="col-sm-10">
+                        <label className="col-sm-2" htmlFor="name">Name:</label>
+                        <div className="col-sm-10">
                             <div>
-                                <input name="name" class="form-control" type="text" defaultValue={name} id="name" onChange={handleChange}></input>
+                                <input name="name" className="form-control" type="text" defaultValue={name} id="name" onChange={handleChange}></input>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <label class="col-sm-2">Email Address:</label>
-                        <div class="col-sm-10">
+                        <label className="col-sm-2">Email Address:</label>
+                        <div className="col-sm-10">
                             <div>
-                                <input class="form-control" name="email" type="email" id="email" defaultValue={email} onChange={handleChange}></input>
+                                <input className="form-control" name="email" type="email" id="email" defaultValue={email} onChange={handleChange}></input>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <label class="col-sm-2" >Message:</label>
+                        <label className="col-sm-2" >Message:</label>
                         <div>
-                            <textarea class="form-control" name="message" rows="3" defaultValue={message} onChange={handleChange}></textarea>
+                            <textarea className="form-control" name="message" rows="3" defaultValue={message} onChange={handleChange}></textarea>
                         </div>
                     </div>
                     {errorMessage && (
@@ -109,10 +109,10 @@ export default function Contact() {
                             <p className="error-text">{errorMessage}</p>
                         </div>
                     )}
-                    <div class="form-group pull-right">
-                        <label class="col-sm-2 control-label"></label>
-                        <div class="col-xs-1">
-                            <button type="submit" class="btn btn-primary" onClick={handlePageForm}>Submit</button>
+                    <div className="form-group pull-right">
+                        <label className="col-sm-2 control-label"></label>
+                        <div className="col-xs-1">
+                            <button type="submit" className="btn btn-primary" onClick={handlePageForm}>Submit</button>
                         </div>
                     </div>
                 </form>
